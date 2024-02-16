@@ -74,8 +74,8 @@ body {
   background-color: #f6f6f6;
 }
 .wraper {
-  height: 100vh;
   position: relative;
+  padding: 20px 50px;
 }
 .wraper .discount {
   background-color: #0075ff;
@@ -216,3 +216,132 @@ body {
   color: red;
   text-transform: capitalize;
 }
+/* Start columns-challenge   */
+/* .wraper .columns-challenge {
+  border: 1px solid black;
+  padding: 30px;
+} */
+.wraper .columns-challenge fieldset {
+  padding: 20px;
+}
+.wraper .columns-challenge form {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.wraper .columns-challenge .box {
+  flex: 1;
+}
+.wraper .columns-challenge input {
+  width: 100%;
+  min-width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-left: 15px;
+  box-shadow: 1px 1px 4px 2px darkgray;
+}
+.wraper .columns-challenge input[type="submit"] {
+  color: white;
+  background-color: #009688;
+  box-shadow: none;
+}
+::placeholder {
+  color: #ccc;
+}
+.wraper .columns-challenge textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 4px 2px darkgray;
+  resize: none;
+}
+/* End columns-challenge   */
+/* Start Creative Titles  */
+.creative-titles {
+  border: 1px solid green;
+  position: relative;
+  margin: 50px auto;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+.creative-titles h1 {
+  color: #009688;
+}
+.creative-titles h2 {
+  color: unset;
+  text-align: left;
+  padding: 5px;
+}
+.creative-titles h3 {
+  position: relative;
+  color: black;
+  margin-bottom: 10px;
+  padding: 15px 5px;
+}
+.creative-titles h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  height: 2px;
+  background-color: #ddd;
+}
+
+.creative-titles h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100px;
+  height: 2px;
+}
+.creative-titles h3 i {
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  padding: 0;
+  font-size: 12px;
+}
+.creative-titles .red {
+  color: red;
+}
+.creative-titles .red::after {
+  background-color: red;
+}
+.creative-titles .blue {
+  color: blue;
+}
+.creative-titles .blue::after {
+  background-color: blue;
+}
+.creative-titles .green {
+  color: green;
+}
+.creative-titles .green::after {
+  background-color: green;
+}
+.creative-titles .brown {
+  color: brown;
+}
+.creative-titles .brown::after {
+  background-color: brown;
+}
+.creative-titles .triangle {
+  font-size: 25px;
+}
+.creative-titles .triangleup {
+  font-size: 20px;
+  bottom: -7px;
+}
+.creative-titles .triangledown {
+  font-size: 20px;
+  bottom: -11px;
+}
+/* End Creative Titles  */
