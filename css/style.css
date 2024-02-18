@@ -261,6 +261,9 @@ body {
   box-shadow: 1px 1px 4px 2px darkgray;
   resize: none;
 }
+.columns-challenge input[type="submit"] {
+  cursor: pointer;
+}
 /* End columns-challenge   */
 /* Start Creative Titles  */
 .creative-titles {
