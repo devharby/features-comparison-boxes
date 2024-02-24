@@ -265,6 +265,64 @@ body {
   cursor: pointer;
 }
 /* End columns-challenge   */
+/* Start classic sidebar  */
+.Classic-sidebar {
+  position: relative;
+  margin: 50px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.Classic-sidebar aside {
+  margin: 100px 0;
+  width: 400px;
+  border: 1px solid red;
+}
+
+.wraper .Classic-sidebar h3 {
+  color: white;
+  background-color: #e91e63;
+  position: relative;
+  padding: 5px 0;
+  margin: 0;
+}
+.Classic-sidebar h3::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  left: 137px;
+  background-color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.Classic-sidebar section {
+  padding: 10px 20px;
+}
+
+.Classic-sidebar ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+.Classic-sidebar ul li span {
+  background-color: #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+.Classic-sidebar section figure {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.Classic-sidebar section figure img {
+  width: 110px;
+  height: 110px;
+}
+/* End classic sidebar  */
 /* Start Creative Titles  */
 .creative-titles {
   border: 1px solid green;
